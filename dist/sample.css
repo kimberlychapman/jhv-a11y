@@ -1,0 +1,164 @@
+body{
+  /* background-color: aqua; */
+  background: url(images/map-big.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+font-family: 'Lato', sans-serif;
+}
+#back {
+  position:fixed;
+  top:3px;
+  left:5px;
+  width:250px;
+  height:70px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* border:1px solid #034575; */
+  /* border-radius: 50%; */
+  display:flex;
+  flex-direction: row;
+  text-decoration: none;
+  border-radius: 2px;
+
+}
+#back img{
+  height:50px;
+  width:50px;
+}
+#hawk{
+  height:70;
+  width:65px;
+  /* border:solid 2px magenta; */
+}
+#hawk img{
+  height:59.5px;
+  width:66.3px;
+}
+#go-home{
+  font-family: 'Lato', sans-serif;
+  font-size:14pt;
+  color:black;
+  text-decoration: none;
+  margin-left:2px;
+  line-height: 70px;
+}
+#back:hover{
+ border:solid 2px #034575;
+}
+#new{
+  width:60px;
+  background-color: purple;
+}
+#back:hover #go-home{
+  text-decoration: underline;
+}
+
+#maybe{
+  position:fixed;
+  top:30%;
+  left:40%;
+  height:120px;
+  width:120px;
+  border-radius:5px;
+  /* background-color: black;
+  color:yellow; */
+  font-size:18pt;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+#maybe img{
+  height:110px;
+  width:110px;
+  /* display: flex;
+  justify-content: center; */
+}
+#maybe-box{
+  position: fixed;
+  top:9.8%;
+  left:47.5%;
+  height:300px;
+  width:332px;
+  background-color: white;
+  /* border: solid 2px blue; */
+  border-radius:5px;
+  display: none;
+  flex-direction:column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#maybe1,
+#next1{
+display: flex;
+flex-direction: row;
+}
+#close,
+#next-close{
+  height:30px;
+  width:30px;
+  float: right;
+  border:solid 2px black;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+#close img,
+#next-close img{
+  height:20px;
+  width:20px;
+}
+.wordy{
+  height:140px;
+  width:300px;
+  margin-left:17px;
+  margin-top:15px;
+}
+#school-pic{
+  height:150px;
+  width:300px;
+  /* border:solid 2px orangered; */
+}
+#school-pic img{
+  height:150px;
+  width:330px;
+  border-radius:5px;
+}
+#next-pic{
+  height:150px;
+  width:300px;
+}
+#next-pic img{
+  height:150px;
+  width:330px;
+  border-radius:5px;
+}
+#next-school{
+  position:fixed;
+  top:60%;
+  left:60%;
+  height:120px;
+  width:120px;
+  background-color: transparent;
+  border-radius:5px;
+  font-size:18pt;
+  display: flex;
+  justify-content: center;
+}
+#next-school img{
+  height:110px;
+  width:110px;
+}
+#next-box{
+  position: fixed;
+  top:38.75%;
+  left:67.2%;
+  height:300px;
+  width:332px;
+  background-color: white;
+  /* border: solid 2px blue; */
+  border-radius:5px;
+  display: none;
+  flex-direction:column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
