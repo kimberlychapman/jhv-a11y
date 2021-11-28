@@ -52,3 +52,10 @@ function showNext(){
 function byeNext(){
     document.getElementById("next-box").style.display="none";
 }
+
+function showThree(){
+    document.getElementById("s3-box").style.display="flex";
+}
+function byeThree(){
+    document.getElementById("s3-box").style.display="none";
+}

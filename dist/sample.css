@@ -1,3 +1,4 @@
+
 body{
   /* background-color: aqua; */
   background: url(images/map-big.jpg) no-repeat center center fixed; 
@@ -7,6 +8,10 @@ body{
 background-size: cover;
 height:100%;
 font-family: 'Lato', sans-serif;
+/* overflow: hidden;
+overflow-x: auto;
+overflow-y: hidden; */
+
 }
 #back {
   position:fixed;
@@ -23,6 +28,7 @@ font-family: 'Lato', sans-serif;
   border-radius: 2px;
 
 }
+
 #back img{
   height:50px;
   width:50px;
@@ -86,15 +92,18 @@ font-family: 'Lato', sans-serif;
   border-radius:5px;
   display: none;
   flex-direction:column;
+  overflow-x: scroll;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 #maybe1,
-#next1{
+#next1,
+#s3-1{
 display: flex;
 flex-direction: row;
 }
 #close,
-#next-close{
+#next-close,
+#s3-close{
   height:30px;
   width:30px;
   float: right;
@@ -104,7 +113,8 @@ flex-direction: row;
   z-index: 2;
 }
 #close img,
-#next-close img{
+#next-close img,
+#s3-close img{
   height:20px;
   width:20px;
 }
@@ -123,15 +133,19 @@ flex-direction: row;
   height:150px;
   width:330px;
   border-radius:5px;
+  margin-left:1px;
 }
-#next-pic{
+#next-pic,
+#s3-pic{
   height:150px;
   width:300px;
 }
-#next-pic img{
+#next-pic img,
+#s3-pic img{
   height:150px;
   width:330px;
   border-radius:5px;
+  margin-left:1px;
 }
 #next-school{
   position:fixed;
@@ -145,13 +159,14 @@ flex-direction: row;
   display: flex;
   justify-content: center;
 }
-#next-school img{
+#next-school img,
+#school3 img{
   height:110px;
   width:110px;
 }
 #next-box{
   position: fixed;
-  top:38.75%;
+  top:40%;
   left:67.2%;
   height:300px;
   width:332px;
@@ -160,5 +175,33 @@ flex-direction: row;
   border-radius:5px;
   display: none;
   flex-direction:column;
+  overflow-x: scroll;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#school3{
+  position:fixed;
+  top:80%;
+  left:5%;
+  height:120px;
+  width:120px;
+  background-color: transparent;
+  border-radius:5px;
+  font-size:18pt;
+  display: flex;
+  justify-content: center;
+}
+#s3-box{
+  position: fixed;
+  top:60%;
+  left:12.25%;
+  height:300px;
+  width:332px;
+  background-color: white;
+  /* border: solid 2px blue; */
+  border-radius:5px;
+  display: none;
+  flex-direction:column;
+  overflow-x: scroll;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
