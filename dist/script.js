@@ -809,3 +809,26 @@ function showSlides(n) {
 //   slides[slideIndex-1].style.display = "block";
 //   setTimeout(showSlides, 2000); // Change image every 2 seconds
 // }
+function hideLF(){
+  document.getElementById('sort2').style.display="none";
+  document.getElementById('sort3').style.display="none";
+  document.getElementById('sort5').style.display="none";
+  document.getElementById('sort6').style.display="none";
+  document.getElementById("sort4").style.display="flex";
+  document.getElementById("k8").style.display="flex";
+  document.getElementById("hs").style.display="flex";
+  document.getElementById("he").style.display="flex";
+  document.getElementById("close-schools").style.display="flex";
+}
+
+function hideSchools(){
+  document.getElementById('sort2').style.display="flex";
+  document.getElementById('sort3').style.display="flex";
+  document.getElementById('sort4').style.display="none";
+  document.getElementById('sort5').style.display="none";
+  document.getElementById('sort6').style.display="none";
+  document.getElementById("k8").style.display="none";
+  document.getElementById("hs").style.display="none";
+  document.getElementById("he").style.display="none";
+  document.getElementById("close-schools").style.display="none";
+}
